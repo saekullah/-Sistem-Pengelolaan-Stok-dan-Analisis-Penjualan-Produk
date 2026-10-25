@@ -109,9 +109,3 @@ Baca dokumen pada folder [`docs/`](docs/) secara berurutan dari 01 sampai 14.
 - Membuat peramalan permintaan dengan data historis yang cukup.
 - Menambahkan pengujian model dan validasi dengan data periode berbeda.
 - Menghubungkan aplikasi dengan database MySQL.
-
-## Penulis
-
-Nama: *Isi nama kamu*  
-Program Studi: Informatika  
-Topik: Data Mining dan analisis penjualan produk
