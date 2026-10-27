@@ -3,9 +3,6 @@
 **Proyek pembelajaran Data Mining — studi kasus minimarket fiktif Ilham Mart**
 
 Repository ini mendokumentasikan proses pembelajaran Data Mining dari tahap memahami masalah, menyiapkan dataset, membersihkan data, melakukan analisis eksploratif, menerapkan algoritma K-Means, mengevaluasi model, hingga menyusun rekomendasi pengelolaan stok.
-
-> **Catatan:** Dataset di repository ini adalah data contoh sintetis untuk pembelajaran, bukan data transaksi toko sungguhan.
-
 ## Tujuan proyek
 
 1. Memahami pola penjualan produk berdasarkan data transaksi.
@@ -50,38 +47,6 @@ sistem-pengelolaan-stok-analisis-penjualan/
 └── outputs/
     └── README.md
 ```
-
-## Cara menjalankan
-
-### 1. Siapkan Python
-
-Gunakan Python 3.10 atau lebih baru. Disarankan membuat virtual environment.
-
-```bash
-python -m venv .venv
-```
-
-Aktifkan environment:
-
-- Windows: `.venv\Scripts\activate`
-- macOS/Linux: `source .venv/bin/activate`
-
-### 2. Instal library
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Jalankan analisis
-
-Dari direktori utama repository:
-
-```bash
-python src/analisis_penjualan.py
-```
-
-Program akan membaca `data/penjualan_produk.csv`, menampilkan ringkasan analisis, dan menyimpan hasil CSV serta grafik ke folder `outputs/`.
-
 ## Alur analisis
 
 1. Membaca data transaksi.
@@ -97,10 +62,6 @@ Program akan membaca `data/penjualan_produk.csv`, menampilkan ringkasan analisis
 Label cluster `0`, `1`, dan `2` yang dihasilkan algoritma **bukan** urutan kualitas. Nama seperti “penjualan tinggi”, “menengah”, dan “rendah” harus ditentukan setelah membandingkan rata-rata penjualan atau pendapatan tiap cluster.
 
 K-Means menemukan kemiripan berdasarkan fitur yang digunakan. Hasilnya bukan ramalan penjualan dan tidak otomatis menentukan jumlah stok ideal. Keputusan stok juga perlu mempertimbangkan stok saat ini, waktu tunggu pemasok, masa kedaluwarsa, pola musiman, dan batas minimum stok.
-
-## Materi pembelajaran
-
-Baca dokumen pada folder [`docs/`](docs/) secara berurutan dari 01 sampai 14.
 
 ## Pengembangan berikutnya
 
