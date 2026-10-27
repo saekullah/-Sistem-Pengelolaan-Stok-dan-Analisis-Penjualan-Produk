@@ -1,6 +1,6 @@
 # Sistem Pengelolaan Stok dan Analisis Penjualan Produk
 
-**Proyek pembelajaran Data Mining — studi kasus minimarket fiktif Mriki Mart**
+**Proyek pembelajaran Data Mining — studi kasus minimarket fiktif Ilham Mart**
 
 Repository ini mendokumentasikan proses pembelajaran Data Mining dari tahap memahami masalah, menyiapkan dataset, membersihkan data, melakukan analisis eksploratif, menerapkan algoritma K-Means, mengevaluasi model, hingga menyusun rekomendasi pengelolaan stok.
 
